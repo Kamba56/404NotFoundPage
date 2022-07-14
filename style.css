@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: -0.035em;
+  color: #333;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* * Header styling */
+header h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+/* * Body styling */
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+}
+
+.fig {
+  flex-basis: 350px;
+  flex-grow: 1;
+}
+
+.msg-div {
+  flex-basis: 500px;
+  flex-grow: 1.5;
+}
+
+.msg-div h2 {
+  font-size: 48px;
+  line-height: 71px;
+}
+
+.msg-div p {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 36px 0 60px;
+}
+
+.btn {
+  padding: 24px 43px;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 8px 8px 8px #c2c2c2;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 14px #c2c2c2;
+}
+
+.btn:active {
+  background: #333;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 3px -3px 14px #fff;
+}
+
+@media only screen and (min-width: 989px) {
+  .fig {
+    padding-right: 50px;
+  }
+
+  .msg-div {
+    padding-left: 30px;
+  }
+
+  .msg-div h2 {
+    font-size: 64px;
+    line-height: 95px;
+  }
+
+  .msg-div p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
