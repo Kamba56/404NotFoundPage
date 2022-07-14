@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://kamba56.github.io/404NotFoundPage/">
+    <a href="https://kamba56.github.io/404NotFoundPage/index.html">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 ![screenshot](./assets/mobile.png)
 
 I really enjoyed the short time working on this project. I improved on the use of the `flex` property in CSS3.
-You can find the demo of the webpage [here](https://kamba56.github.io/404NotFoundPage/) 
+You can find the demo of the webpage [here](https://kamba56.github.io/404NotFoundPage/index.html) 
 
 ### Built With
 
