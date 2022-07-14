@@ -10,7 +10,7 @@ body {
   font-size: 18px;
   font-family: 'Space Mono', monospace;
   letter-spacing: -0.035em;
-  color: #333333;
+  color: #333;
 }
 
 button {
@@ -50,7 +50,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 60px 20px
+  padding: 60px 20px;
 }
 
 .fig {
@@ -76,16 +76,16 @@ header h1 {
 
 .btn {
   padding: 24px 43px;
-  background: #333333;
+  background: #333;
   color: #fff;
   text-transform: uppercase;
   box-shadow: 8px 8px 8px #c2c2c2;
-  transition: background .5s;
+  transition: background 0.5s;
 }
 
 .btn:hover {
   background: #fff;
-  color: #333333;
+  color: #333;
   border-radius: 10px;
   box-shadow: inset 5px 5px 14px #c2c2c2;
 }
@@ -97,8 +97,7 @@ header h1 {
   box-shadow: inset 3px -3px 14px #fff;
 }
 
-
-@media only screen and (min-width:989px) {
+@media only screen and (min-width: 989px) {
   .fig {
     padding-right: 50px;
   }
